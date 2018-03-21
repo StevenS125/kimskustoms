@@ -3,6 +3,7 @@ import Background from './Background/Background';
 import Footer from './Footer/Footer';
 import Nav from './Nav/Nav';
 import logo from './logo.png';
+import Home from './Home/Home';
 
 
 //styles
@@ -28,7 +29,7 @@ class App extends Component {
 
 
   openNav() {
-    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.width = "40%";
   }
 
   closeNav() {
@@ -39,19 +40,22 @@ render() {
   return (
     <div className={styles.app}>
     <header>
+      <div className={styles.kustomlogo}>
     <img src={logo} 
-            className={this.state.toggleLogo ? 'static-logo' : 'static-logo animated jello'} 
+            className={this.state.toggleLogo ? styles.staticlogo : styles.staticlogojello} 
             alt="logo"
             onMouseEnter={this.toggleLogo}
             onMouseLeave={this.toggleLogo}
             onClick={this.openNav}
           />
+          </div>
         <h1 
-        className={this.state.toggleLogo ? "menu-hidden" : "menu animated bounceInDown"}
+        className={this.state.toggleLogo ? styles.menuhidden : "menu animated bounceInDown"}
         onClick={this.openNav}
-        >Menu</h1>
+        >Kim's Kustoms Menu</h1>
     <Nav closeNav={this.closeNav} />
       </header>
+      <Home />
     <Background />
     <Footer />
 
