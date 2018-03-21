@@ -5,7 +5,7 @@ export default class Background extends React.Component {
   render() {
     return (
       <div>
-        <div className={styles.stars}></div>
+        <div className={styles.landing}></div>
       </div>
     );
   }

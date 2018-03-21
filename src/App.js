@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+// Components
 import Background from './Background/Background';
 import Footer from './Footer/Footer';
 import Nav from './Nav/Nav';
@@ -38,6 +41,7 @@ class App extends Component {
 
 render() {
   return (
+    <Router>
     <div className={styles.app}>
     <header>
       <div className={styles.kustomlogo}>
@@ -52,14 +56,17 @@ render() {
         <h1 
         className={this.state.toggleLogo ? styles.menuhidden : "menu animated bounceInDown"}
         onClick={this.openNav}
-        >Kim's Kustoms Menu</h1>
+        >Navigation</h1>
     <Nav closeNav={this.closeNav} />
       </header>
-      <Home />
-    <Background />
+      <Background />
+      <Switch>
+        <Route exact path="/" component={Home}/>
+      
+      </Switch>
     <Footer />
-
     </div>
+</Router>
   );
 }
 }

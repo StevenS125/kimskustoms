@@ -25,6 +25,7 @@
   left: 0;
   right: 0;
   z-index: 99;
+  border-radius: 50%;
 }
 
 .menu{
@@ -63,6 +64,7 @@ cursor: pointer;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+  border-radius: 50%;
 }
 
 @keyframes jello {
