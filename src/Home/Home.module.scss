@@ -4,14 +4,20 @@
 }
 
 .landingleft {
-    width: 50%;
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 10%;
     height: 300px;
     float: left;
     font-family: 'Monoton', cursive;
 }
 
 .landingright {
-    width: 50%;
+    width: 25%;
     height: 300px;
     float: right;
+}
+
+p {
+    font-size: 25px;
 }
