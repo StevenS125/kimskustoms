@@ -9,7 +9,7 @@ const Navigation = (props) => (
         </a>
         <div className={styles.overlaycontent}>
             <a> <Link to="/">Home</Link></a>
-            <a> <Link to="/home">Furniture</Link></a>
+            <a> <Link to="/process">The Magic</Link></a>
             <a> <Link to="/home">Shop</Link></a>
             <a> <Link to="/home">Our Story</Link></a>
             <a> <Link to="/home">Contact</Link></a>

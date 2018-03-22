@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import data from './data/data.json';
 
 // Components
 import Background from './Background/Background';
@@ -7,6 +8,7 @@ import Footer from './Footer/Footer';
 import Nav from './Nav/Nav';
 import logo from './logo.png';
 import Home from './Home/Home';
+import Process from './Process/Process';
 
 
 //styles
@@ -16,12 +18,24 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state= {
-      toggleLogo: true
+      toggleLogo: true,
+      loading: true,
+      cards: [],
     }
 
     this.toggleLogo = this.toggleLogo.bind(this);
     this.openNav = this.openNav.bind(this);
     this.closeNav = this.closeNav.bind(this);
+  }
+
+  componentWillMount() {
+    this.setState({
+      cards: data,
+    });
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ loading: false}), 3000);
   }
 
   toggleLogo(event) {
@@ -62,6 +76,7 @@ render() {
       <Background />
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route path="/process" component={Process}/>
       
       </Switch>
     <Footer />
