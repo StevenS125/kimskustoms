@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import data from './data/data.json';
 
 // Components
 import Background from './Background/Background';
@@ -19,8 +18,6 @@ class App extends Component {
     super(props);
     this.state= {
       toggleLogo: true,
-      loading: true,
-      cards: [],
     }
 
     this.toggleLogo = this.toggleLogo.bind(this);
@@ -28,11 +25,6 @@ class App extends Component {
     this.closeNav = this.closeNav.bind(this);
   }
 
-  componentWillMount() {
-    this.setState({
-      cards: data,
-    });
-  }
 
   componentDidMount() {
     setTimeout(() => this.setState({ loading: false}), 3000);
@@ -52,6 +44,7 @@ class App extends Component {
   closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+
 
 render() {
   return (
