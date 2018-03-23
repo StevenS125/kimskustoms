@@ -22,7 +22,7 @@ export default class Process extends React.Component {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false}), 2000);
+    setTimeout(() => this.setState({ loading: false}), 3000);
   }
 
   showBack(card) {
@@ -43,7 +43,7 @@ export default class Process extends React.Component {
           <div>
           {
           this.state.loading ? <Loading /> :
-          <div className={styles.Grid + " " + styles.animated + " " + styles.bounceInUp}>
+          <div className={styles.Grid}>
           {
             this.state.cards.map((card) => (
               <Card 

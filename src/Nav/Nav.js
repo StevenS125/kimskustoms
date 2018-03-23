@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Nav.module.scss";
 import { Link } from 'react-router-dom';
+import logo from '../logo.png';
 
 const Navigation = (props) => (
     <div id="myNav" className={styles.overlay}>
@@ -8,11 +9,12 @@ const Navigation = (props) => (
         &times;
         </a>
         <div className={styles.overlaycontent}>
-            <a> <Link to="/">Home</Link></a>
-            <a> <Link to="/process">The Magic</Link></a>
-            <a> <Link to="/home">Shop</Link></a>
-            <a> <Link to="/home">Our Story</Link></a>
-            <a> <Link to="/home">Contact</Link></a>
+            <Link to="/">Home</Link>
+            <Link to="/process">The Magic</Link>
+            <Link to="/home">Shop</Link>
+            <Link to="/home">Our Story</Link>
+            <Link to="/home">Contact</Link>
+            <img src={logo} className={styles.kustomLogo} alt="Kim's Kustoms logo"/>
         </div>
         </div>
 );

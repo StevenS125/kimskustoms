@@ -5,7 +5,7 @@
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255,255,255, 0.8);
     overflow-x: hidden;
     transition: 0.5s; 
 }
@@ -22,13 +22,13 @@
     padding: 8px;
     text-decoration: none;
     font-size: 30px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: white;
+    color: tan;
 }
 
 .overlay .closebtn {
@@ -37,6 +37,12 @@
     right: 45px;
     font-size: 60px;
     cursor: pointer;
+}
+
+.kustomLogo {
+    margin-top:10px;
+    height:80px !important;
+    border-radius: 50%;
 }
 
 @media screen  and (max-height: 450px) {

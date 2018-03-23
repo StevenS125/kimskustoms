@@ -2,51 +2,62 @@
     { "id": 0,
       "animation": "card",
       "description": "",
-      "img": "../afterdining.JPG"
+      "img": "../beforediningedit.JPG",
+      "type": "Before"
     },
     { "id": 1,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.jpeg"
+      "img": "../afterdining.JPG",
+      "type": "After"
+
     },
     { "id": 2,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../beforedresser.JPEG",
+      "type": "Before"
      },
     { "id": 3,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../afterdresser.JPEG",
+      "type": "After"
      },
     { "id": 4,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../beforetable.JPG",
+      "type": "Before"
      },
     { "id": 5,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../aftertable.JPG",
+      "type": "After"
      },
      { "id": 6,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG" 
+      "img": "../beforeshutter.JPG",
+      "type": "Before" 
     },
     { "id": 7,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../aftershutter.JPG",
+      "type": "After"
      },
     { "id": 8,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../beforestool.JPEG",
+      "type": "Before"
      },
     { "id": 9,
       "animation": "card",
       "description": "",
-      "img": "../beforedining.JPG"
+      "img": "../afterstool.JPEG",
+      "type": "After"
      }
   ]

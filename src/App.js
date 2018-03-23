@@ -54,7 +54,7 @@ render() {
       <div className={styles.kustomlogo}>
     <img src={logo} 
             className={this.state.toggleLogo ? styles.staticlogo : styles.staticlogojello} 
-            alt="logo"
+            alt="Kim's Kustom's logo"
             onMouseEnter={this.toggleLogo}
             onMouseLeave={this.toggleLogo}
             onClick={this.openNav}
