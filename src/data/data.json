@@ -3,61 +3,36 @@
       "animation": "card",
       "description": "",
       "img": "../beforediningedit.JPG",
-      "type": "Before"
+      "afterimg": "../afterdining.JPG",
+      "type": "Before",
+      "descript": "this table went from cutting up coke bricks to kitchen room table servin up steaks"
     },
     { "id": 1,
       "animation": "card",
       "description": "",
-      "img": "../afterdining.JPG",
-      "type": "After"
-
-    },
+      "img": "../beforedresser.JPEG",
+      "afterimg": "../afterdresser.JPEG",
+      "type": "Before"
+     },
     { "id": 2,
       "animation": "card",
       "description": "",
-      "img": "../beforedresser.JPEG",
-      "type": "Before"
-     },
-    { "id": 3,
-      "animation": "card",
-      "description": "",
-      "img": "../afterdresser.JPEG",
-      "type": "After"
-     },
-    { "id": 4,
-      "animation": "card",
-      "description": "",
       "img": "../beforetable.JPG",
+      "afterimg": "../aftertable.JPG",
       "type": "Before"
      },
-    { "id": 5,
-      "animation": "card",
-      "description": "",
-      "img": "../aftertable.JPG",
-      "type": "After"
-     },
-     { "id": 6,
+     { "id": 3,
       "animation": "card",
       "description": "",
       "img": "../beforeshutter.JPG",
+      "afterimg": "../aftershutter.JPG",
       "type": "Before" 
     },
-    { "id": 7,
-      "animation": "card",
-      "description": "",
-      "img": "../aftershutter.JPG",
-      "type": "After"
-     },
-    { "id": 8,
+    { "id": 4,
       "animation": "card",
       "description": "",
       "img": "../beforestool.JPEG",
+      "afterimg": "../afterstool.JPEG",
       "type": "Before"
-     },
-    { "id": 9,
-      "animation": "card",
-      "description": "",
-      "img": "../afterstool.JPEG",
-      "type": "After"
      }
   ]

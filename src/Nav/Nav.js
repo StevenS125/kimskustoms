@@ -13,7 +13,7 @@ const Navigation = (props) => (
             <Link to="/process">The Magic</Link>
             <Link to="/home">Shop</Link>
             <Link to="/home">Our Story</Link>
-            <Link to="/home">Contact</Link>
+            <Link to="/Contact">Contact</Link>
             <img src={logo} className={styles.kustomLogo} alt="Kim's Kustoms logo"/>
         </div>
         </div>

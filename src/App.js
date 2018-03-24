@@ -8,6 +8,7 @@ import Nav from './Nav/Nav';
 import logo from './logo.png';
 import Home from './Home/Home';
 import Process from './Process/Process';
+import Contact from './Contact/Contact';
 
 
 //styles
@@ -70,6 +71,7 @@ render() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/process" component={Process}/>
+        <Route path="/contact" component={Contact}/>
       
       </Switch>
     <Footer />
