@@ -3,36 +3,36 @@
       "animation": "card",
       "description": "",
       "img": "../beforediningedit.JPG",
-      "afterimg": "../afterdining.JPG",
-      "type": "Before",
-      "descript": "this table went from cutting up coke bricks to kitchen room table servin up steaks"
+      "afterimg": "../afterdiningedit.JPG",
+      "type": "From 1850's to modern elegance",
+      "descript": "This kitchen table and chair set went thru a rigourous sand, finish and sealing to give it a whole new look"
     },
     { "id": 1,
       "animation": "card",
       "description": "",
       "img": "../beforedresser.JPEG",
-      "afterimg": "../afterdresser.JPEG",
+      "afterimg": "../afterdresseredit.JPEG",
       "type": "Before"
      },
     { "id": 2,
       "animation": "card",
       "description": "",
       "img": "../beforetable.JPG",
-      "afterimg": "../aftertable.JPG",
+      "afterimg": "../aftertabledit.JPG",
       "type": "Before"
      },
      { "id": 3,
       "animation": "card",
       "description": "",
-      "img": "../beforeshutter.JPG",
-      "afterimg": "../aftershutter.JPG",
+      "img": "../beforeshutteredit.JPG",
+      "afterimg": "../aftershutteredit.JPG",
       "type": "Before" 
     },
     { "id": 4,
       "animation": "card",
       "description": "",
-      "img": "../beforestool.JPEG",
-      "afterimg": "../afterstool.JPEG",
+      "img": "../beforestooledit.JPEG",
+      "afterimg": "../afterstooledit.JPEG",
       "type": "Before"
      }
   ]

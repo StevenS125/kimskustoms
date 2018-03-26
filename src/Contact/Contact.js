@@ -9,17 +9,17 @@ export default class Contact extends React.Component {
 
 <div>
   <input type="text" id="first_name" name="first_name" required placeholder=" " />
-  <label for="first_name">First Name</label>
+  <label htmlFor="first_name">First Name</label>
 </div>
 
 <div>
   <input type="text" id="last_name" name="last_name" required placeholder=" " />
-  <label for="last_name">Last Name</label>
+  <label htmlFor="last_name">Last Name</label>
 </div>
 
 <div>
   <input type="email" id="email" name="email" required placeholder=" " />
-  <label for="email">Email Address</label>
+  <label htmlFor="email">Email Address</label>
   <div className={styles.requirements}>
     Must be a valid email address.
   </div>
@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
 
 <div>
   <input type="password" id="password" name="password" required placeholder=" " pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" />
-  <label for="password">Password</label>
+  <label htmlFor="password">Password</label>
   <div className={styles.requirements}>
     Your password must be at least 6 characters as well as contain at least one uppercase, one lowercase, and one number.
   </div>
