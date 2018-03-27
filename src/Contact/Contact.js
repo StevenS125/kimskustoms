@@ -5,6 +5,8 @@ export default class Contact extends React.Component {
   render() {
     return (
         <div className={styles.container}>
+        <h2>Contact Us!</h2>
+
         <form action="#0">
 
 <div>

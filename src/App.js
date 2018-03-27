@@ -9,6 +9,7 @@ import logo from './logo.png';
 import Home from './Home/Home';
 import Process from './Process/Process';
 import Contact from './Contact/Contact';
+import Story from './Story/Story';
 
 
 //styles
@@ -72,6 +73,7 @@ render() {
         <Route exact path="/" component={Home}/>
         <Route path="/process" component={Process}/>
         <Route path="/contact" component={Contact}/>
+        <Route path="/story" component={Story}/>
       
       </Switch>
     <Footer />
