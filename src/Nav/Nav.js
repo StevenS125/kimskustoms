@@ -11,7 +11,7 @@ const Navigation = (props) => (
         <div className={styles.overlaycontent}>
             <Link onClick={() => props.closeNav()} to="/">Home</Link>
             <Link onClick={() => props.closeNav()} to="/process">The Magic</Link>
-            <Link onClick={() => props.closeNav()} to="/home">Shop</Link>
+            <Link onClick={() => props.closeNav()} to="/shop">Shop</Link>
             <Link onClick={() => props.closeNav()} to="/story">Our Story</Link>
             <Link onClick={() => props.closeNav()} to="/Contact">Contact</Link>
             <img src={logo} className={styles.kustomLogo} alt="Kim's Kustoms logo"/>

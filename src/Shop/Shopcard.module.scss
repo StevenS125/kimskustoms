@@ -1,0 +1,35 @@
+.shopcardContainer {
+    width: 80%;
+    background-color: white;
+    margin: 0 10% 5% 10%;
+    border: 2px solid rgb(219, 219, 219);
+}
+
+.cardimg {
+    height: 380px; 
+    width: 40%; 
+    float: left;
+    margin: 18px;
+    text-align: none;
+    border: 2px solid rgb(219, 219, 219);
+}
+
+.shopdescript {
+    height: 400px;
+}
+
+.buyNow {
+    padding: 15px 40px 15px 40px;
+    color: black;
+    background-color: tan;   
+    font-family: Pacifico;
+}
+
+    .customstyles {
+      top: 50%;
+      left: 50%;
+      right: auto;
+      bottom: auto;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }

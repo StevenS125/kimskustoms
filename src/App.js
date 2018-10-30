@@ -10,6 +10,7 @@ import Home from './Home/Home';
 import Process from './Process/Process';
 import Contact from './Contact/Contact';
 import Story from './Story/Story';
+import Shop from './Shop/Shop';
 
 
 //styles
@@ -74,6 +75,8 @@ render() {
         <Route path="/process" component={Process}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/story" component={Story}/>
+        <Route path="/shop" component={Shop}/>
+
       
       </Switch>
     <Footer />
