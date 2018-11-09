@@ -10,7 +10,7 @@
     { "id": 1,
       "animation": "card",
       "description": "",
-      "img": "../beforedresser.jpeg",
+      "img": "../bdresser.jpeg",
       "afterimg": "../afterdresseredit.jpeg",
       "type": "Before"
      },
