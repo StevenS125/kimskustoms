@@ -15,14 +15,13 @@ export default class Process extends React.Component {
     this.showBack = this.showBack.bind(this);
   }
 
-  componentWillMount() {
-    this.setState({
-      cards: data,
-    });
-  }
+
 
   componentDidMount() {
     setTimeout(() => this.setState({ loading: false}), 3000);
+    this.setState({
+      cards: data,
+    });
   }
 
   showBack(card) {

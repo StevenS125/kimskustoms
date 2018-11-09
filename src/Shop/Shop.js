@@ -22,14 +22,13 @@ export default class Shop extends React.Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
-  componentWillMount() {
-    this.setState({
-      cards: data,
-    });
-  }
+
 
   componentDidMount() {
     setTimeout(() => this.setState({ loading: false}), 2000);
+    this.setState({
+      cards: data,
+    });
   }
 
   openModal() {
