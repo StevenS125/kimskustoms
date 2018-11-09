@@ -14,7 +14,7 @@ export default class Story extends React.Component {
           </p>
           </div>
             <div className={styles.storyright}>
-            <img src="../../KimStoryedit.jpg" alt="Kim the owner" className={styles.picture}/>
+            <img src="../../KimStoryedit.jpeg" alt="Kim the owner" className={styles.picture}/>
             </div>
 
       </div>

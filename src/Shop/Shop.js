@@ -12,7 +12,7 @@ export default class Shop extends React.Component {
     super(props);
     this.state= {
       loading: true,
-      cards: [],
+      cards: data,
       modalIsOpen: false,
     }
 
@@ -25,10 +25,10 @@ export default class Shop extends React.Component {
 
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false}), 2000);
-    this.setState({
-      cards: data,
-    });
+    // setTimeout(() => this.setState({ loading: false}), 2000);
+    // this.setState({
+    //   cards: data,
+    // });
   }
 
   openModal() {
