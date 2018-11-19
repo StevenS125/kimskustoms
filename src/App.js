@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Components
 import Background from './Background/Background';
-import Footer from './Footer/Footer';
 import Nav from './Nav/Nav';
 import logo from './logo.png';
 import Home from './Home/Home';
@@ -79,7 +78,6 @@ render() {
 
       
       </Switch>
-    <Footer />
     </div>
 </Router>
   );

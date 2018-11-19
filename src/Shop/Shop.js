@@ -3,9 +3,7 @@ import styles from './Shop.module.scss';
 import data from '../data/data.json';
 import Shopcard from './Shopcard';
 import Loading from '../Loading/Loading';
-import Modal from 'react-modal';
 
-Modal.setAppElement('#root');
 
 export default class Shop extends React.Component {
   constructor(props) {
@@ -22,7 +20,7 @@ export default class Shop extends React.Component {
     this.closeModal = this.closeModal.bind(this);
   }
 
-
+// Do NOT move this into the constructor, data has not been loaded until mount
 
   componentDidMount() {
     setTimeout(() => this.setState({ loading: false}), 2000);
@@ -73,25 +71,7 @@ export default class Shop extends React.Component {
           }
         </div>
         }
-              <Modal
-          isOpen={this.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          style={styles.customStyles}
-          contentLabel="Example Modal"
-        >
 
-          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
-          <button onClick={this.closeModal}>close</button>
-          <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
-          </form>
-        </Modal>
               </div>
               </div>
 

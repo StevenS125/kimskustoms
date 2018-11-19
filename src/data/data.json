@@ -12,27 +12,31 @@
       "description": "",
       "img": "../bdresser.jpeg",
       "afterimg": "../afterdresseredit.jpeg",
-      "type": "Before"
+      "type": "Before",
+      "descript": "Check out how this dresser went from boring to a rustic antique look"
      },
     { "id": 2,
       "animation": "card",
       "description": "",
       "img": "../beforetable.jpeg",
       "afterimg": "../aftertabledit.jpeg",
-      "type": "Before"
+      "type": "Before",
+      "descript": "This coffee table went from dated to modern chic"
      },
      { "id": 3,
       "animation": "card",
       "description": "",
       "img": "../beforeshutteredit.jpeg",
       "afterimg": "../aftershutteredit.jpeg",
-      "type": "Before" 
+      "type": "Before",
+      "descript": "We can take your basic shutters and make them any color you would like"
     },
     { "id": 4,
       "animation": "card",
       "description": "",
       "img": "../beforestooledit.jpeg",
       "afterimg": "../afterstooledit.jpeg",
-      "type": "Before"
+      "type": "Before",
+      "descript": "Who wants a plain stool when you can have a styled two tone masterpiece for those hard to reach places"
      }
   ]
